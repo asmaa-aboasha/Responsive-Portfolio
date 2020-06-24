@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: lightgray;
+    color: grey;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4aaaa5;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand {
+    height: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold; 
+    line-height: 60px;
+    text-align: center;
+    background: #4aaaa5;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 90px;
+    padding: 15px;
+}
+
+.navbar-expand-lg .navbar-brand {
+    color: white;
+    background: #4aaaa5;
+}
+
+hr {
+    border: lightgrey solid 1.5px;
+}
+
+.main-section {
+    background: white;
+    margin-top: 50px;
+    padding: 0px 30px 30px 30px;
+    border: 1px solid lightgray;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: gray;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+    border-top: 5px solid #4aaaa5;
+}
+
+.btn-primary {
+    background: #4aaaa5;
+    font-size: 20px;
+    border: none;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.thumbnail {
+    position: relative;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: all .8s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.thumbnail img {
+    max-width: 100%;
+}
+
+.portfolio-overlay {
+    position: relative;
+    background: #4aaaa5;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-img-overlay {
+    display: flex;
+    top: -60px;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+}
